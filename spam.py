@@ -1,5 +1,7 @@
 #!/usr/bin/env python
-"""Spam mail classifier."""
+"""Spam mail classifier,  using the Spambase dataset
+https://archive.ics.uci.edu/ml/datasets/spambase."""
+
 import numpy as np
 import pandas as pd
 from sklearn.naive_bayes import MultinomialNB
